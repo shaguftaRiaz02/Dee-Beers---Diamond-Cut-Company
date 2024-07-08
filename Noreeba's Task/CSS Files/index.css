@@ -1,0 +1,130 @@
+*{
+    list-style: none;
+    color: white;
+}
+#company-name{
+    padding-left: 33px;
+}
+.header{
+    background: rgba(0, 0, 0, 0.717);
+}
+.nav-items{
+    margin-top: 12px;
+}
+.navigation{
+    padding-left: 134px;
+}
+.navigation li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.banner{
+    text-align: center;
+    /* padding-top: 80px; */
+    /* background: #07000055; */
+    /* padding-bottom: 50px; */
+    background: url("../images/diamond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow-x: hidden; */
+}
+
+.banner i{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    background-color: rgba(0, 0, 0, 0.689);
+    color: white;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.services{
+    background: rgba(0, 0, 0, 0.532);
+}
+.services i{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.services li{
+   font-weight: bolder;
+}
+.service-img{
+    width: 110%;
+}
+.process{
+    text-align: center;
+    background: #07000055;
+}
+.process img{
+    width: 85%;
+}
+.process figcaption{
+    text-align: left;
+    padding-left: 22px;
+}
+.client-reviews{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.532);
+}
+.client-reviews i.icon {
+    color: black;
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+.teachers{
+    text-align: center;
+    background: #07000055;
+}
+.teachers img{
+    width: 100%;
+    border-radius: 70%;
+}
+.join{
+    background: rgba(0, 0, 0, 0.532);
+}
+.join img{
+    width: 110%;
+}
+.live{
+    background: #07000055;
+
+    text-align: center;
+}
+.live i{
+    color: black;
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+.newsletter{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.532);
+}
+#subscribe{
+    padding-top: 45px;
+    background: #07000055;
+}
+.newsletter i{
+    color: black;
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+.email{
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.footer i{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 15px
+}
+.footer{
+    background: rgba(0, 0, 0, 0.717);
+}

@@ -1,0 +1,507 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noreeba's Task</title>
+    <!-- <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script src="https://kit.fontawesome.com/0151839725.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../BootStrap/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS Files/index.css" />
+    <!-- <link rel="stylesheet" href="../CSS Files/nav.css" /> -->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-8">
+          <h1 id="company-name">De Beers</h1>
+        </div>
+        <div class="col-4 navigation">
+          <li class="nav-items nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bell"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+              />
+            </svg>
+          </li>
+          <li class="nav-items nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-at"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"
+              />
+            </svg>
+          </li>
+          <!-- <li>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li> -->
+          <li class="nav-items nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-down-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+              />
+            </svg>
+          </li>
+          <li class="nav-items">
+            <b>Start Free Trial</b>
+          </li>
+          <li class="nav-items nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list-ul"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+              />
+            </svg>
+          </li>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid banner section">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h1>Welcome to diamond cut and Polished Company</h1>
+          <i class="far fa-gem"></i>
+          <p>Experience the best cutting in diamond and polishing</p>
+          <button type="button" class="banner-btn">Learn More</button>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid section services">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+          <h2>Our Services</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos quis similique est necessitatibus praesentium alias
+            doloribus nemo iure dolores odit? Nostrum quibusdam fugit aliquam
+            odit quasi accusamus consequuntur facilis error?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+          <img src="../images/services.jpg" alt="" class="service-img" />
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+          <li>Diamond Cutting</li>
+          <br />
+          <i class="fas fa-wave-square"></i>
+          <br>
+          <br />
+          <li>Diamond Polishing</li>
+          <br />
+          <i class="fas fa-wave-square"></i>
+          <br />
+          <br>
+          <li>Custom Design</li>
+          <br />
+          <i class="fas fa-wave-square"></i>
+          <br />
+          <br>
+          <li>Available at click of button</li>
+          <br />
+          <br />
+        </div>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <button type="button" class="banner-btn">View Our Work</button>
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+
+    <div class="conatiner-fluid section process">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h2>Our Process</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos quis similique est necessitatibus praesentium alias
+            doloribus nemo iure dolores odit? Nostrum quibusdam fugit aliquam
+            odit quasi accusamus consequuntur facilis error?
+          </p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <img src="../images/services.jpg" alt="" />
+          <figcaption>
+            <b>Body Scan</b> <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </figcaption>
+        </div>
+        <div class="col-3">
+          <img src="../images/services.jpg" alt="" />
+          <figcaption>
+            <b>Body Scan</b> <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </figcaption>
+        </div>
+        <div class="col-3">
+          <img src="../images/services.jpg" alt="" />
+          <figcaption>
+            <b>Body Scan</b> <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </figcaption>
+        </div>
+        <div class="col-3">
+          <img src="../images/services.jpg" alt="" />
+          <figcaption>
+            <b>Body Scan</b> <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </figcaption>
+        </div>
+      </div>
+
+      <div class="row"><br /><br /><br /></div>
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <button type="button" class="banner-btn">Send Message</button>
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+
+    <div class="conatiner-fluid section client-reviews">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h2>What Our Client Say</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos quis similique est necessitatibus praesentium alias
+            doloribus nemo iure dolores odit? Nostrum quibusdam fugit aliquam
+            odit quasi accusamus consequuntur facilis error?
+          </p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+      </div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-3">
+          <i class="fa fa-anchor icon"></i>
+          <h1>Get in Touch</h1>
+          Best Value
+        </div>
+        <div class="col-1"><i class="fas fa-cloud"></i></div>
+        <div class="col-3">
+          <i class="fas fa-won-sign icon"></i>
+          <h1>1 Month</h1>
+          Cancel Anytime
+        </div>
+        <div class="col-2"></div>
+      </div>
+
+      <div class="row"><br /><br /><br /></div>
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <button type="button" class="banner-btn">View MemberShips</button>
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+
+    <div class="conatiner-fluid section teachers">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <h2>Meet Our Meditation Teachers</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos quis similique est necessitatibus praesentium alias
+          </p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+      </div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+          <img src="../images/download.jpeg" alt="" />
+          <figcaption>
+            <b>Ion Gardener</b> <br />
+            Meditation Teacher
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              sint minus placeat nesciunt nihil soluta, esse doloremque nobis
+              aut adipisci.
+            </p>
+          </figcaption>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-2">
+          <img src="../images/download (1).jpeg" alt="" />
+          <figcaption>
+            <b>Ion Gardener</b> <br />
+            Meditation Teacher
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              aspernatur sint ea recusandae tempora, quia delectus voluptate
+              itaque quam hic?
+            </p>
+          </figcaption>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-2">
+          <img src="../images/download.jpeg" alt="" />
+          <figcaption>
+            <b>Ion Gardener</b> <br />
+            Meditation Teacher
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+              veritatis voluptatibus quibusdam sunt. Vel velit perspiciatis
+              rerum minus animi. Porro.
+            </p>
+          </figcaption>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <div class="conatiner-fluid section join">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+          <h2>Start for Free</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <br />
+          ~
+          <br />
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+            architecto laborum non. Modi voluptatem optio esse rerum vero
+            tenetur inventore quos. Optio illo sapiente quasi quod ad deserunt
+            tenetur modi?
+          </p>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4">
+          <img src="../images/pexels-lumn-1410226.jpg" alt="" />
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid section live">
+      <div class="row">
+        <h2>How being mindful changes our lives</h2>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <i class="fas fa-yin-yang"></i>
+          <br />
+          <b>Helps You sleep Better</b>
+          <br />
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            voluptas exercitationem ex?
+          </p>
+        </div>
+        <div class="col-3">
+          <i class="fas fa-yen-sign"></i>
+          <br />
+          <b>Decrease anxiety & depression</b>
+          <br />
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            voluptas exercitationem ex?
+          </p>
+        </div>
+        <div class="col-3">
+          <i class="fas fa-wine-glass-alt"></i>
+          <br />
+          <b>Reduces Stress Level</b>
+          <br />
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            voluptas exercitationem ex?
+          </p>
+        </div>
+
+        <div class="col-3">
+          <i class="fas fa-users-slash"></i>
+          <br />
+          <b>Reduces Stress Level</b>
+          <br />
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            voluptas exercitationem ex?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid section newsletter">
+      <div class="row">
+        <div class="col-6 quote">
+          <i class="fas fa-pray"></i>
+          <br />
+          <br />
+          <h3>The Thing about Mediation Lorem ipsum dolor sit amet.</h3>
+          <br />
+          <br />
+          ~
+          <br />
+          David Lynch
+        </div>
+        <div class="col-6" id="subscribe">
+          <h3>Lets Stay Connected</h3>
+          <br />
+          Subscribe to our news letter Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Voluptatum officiis accusamus quas.
+          <br>
+          <br>
+          Email <br><br>
+          <button type="button" class="banner-btn email">example123@gmail.com</button> <br><br>
+          <button type="button" class="banner-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid section footer">
+        <div class="row">
+            <div class="col-3">
+                <i class="fas fa-dove"></i>
+                <h3>Company</h3>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>&copy; 2023 Your Company. All rights reserved.</p>
+            </div>
+            <div class="col-3">
+              <h3>Menu</h3>
+              <br>
+              <br>
+              <li class="footer-menu">Home</li>
+              <li class="footer-menu">Our Approach</li>
+              <li class="footer-menu">Virtual Classes</li>
+              <li class="footer-menu">Memberships</li>
+              <li class="footer-menu">Meditation Paths</li>
+              <li class="footer-menu">Blog</li>
+            </div>
+            <div class="col-3">
+              <h3>Contact Us</h3>
+              <br>
+              Tel : +87 526 8262525
+              <br>
+              Email : etcetc123@gmail.com
+              <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore?
+            </div>
+            <div class="col-3">
+              <h3>Socials</h3>
+              <br><br>
+              Facebook
+              <br>
+              Twitter
+              <br>
+              LinkedIn
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
